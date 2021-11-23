@@ -12,7 +12,7 @@ Godd:
   - 18 ^PacTaskNo
   - 19 ^PacTaskYes
   - 20 ^GuildComp
-'God':
+God:
   Type: Interact
   Requirements:
     Mode: All
@@ -61,7 +61,7 @@ Godd:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Praying?"
-'God4':
+God4:
   Type: Interact
   Requirements:
     Mode: All
@@ -96,7 +96,7 @@ Godd:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Cardinal user add <player.name>'
         - EXECUTE ASSERVER 'pex group Bishop user remove <player.name>'
-'God3':
+God3:
   Type: Interact
   Requirements:
     Mode: All
@@ -108,7 +108,7 @@ Godd:
       Click Trigger:
         Script:
         - CHAT "<&a>Where the fuck are my 16 Diamond Blocks you Lazy Nigger?"
-'God5':
+God5:
   Type: Interact
   Requirements:
     Mode: All
@@ -119,7 +119,7 @@ Godd:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'PacStart':
+PacStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -158,7 +158,7 @@ Godd:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'PacTask':
+PacTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -172,7 +172,7 @@ Godd:
         - CHAT "<&a>You're task is simple, Bring me 100 Bottles of Enchanting. And you will be a Pacifist of the Church."
         - permission remove Pacifist
         - permission add Pac1
-'PacTaskNo':
+PacTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -184,7 +184,7 @@ Godd:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my Bottles <player.name>?"
-'PacTaskYes':
+PacTaskYes:
   Type: Interact
   Requirements:
     Mode: All

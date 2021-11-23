@@ -13,7 +13,7 @@ Wizardd:
   - 19 SumTaskNo
   - 20 SumTaskYes
   - 21 GuildComp
-'Wizard':
+Wizard:
   Type: Interact
   Requirements:
     Mode: All
@@ -97,7 +97,7 @@ Wizardd:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's wizarding?"
-'Wizard2':
+Wizard2:
   Type: Interact
   Requirements:
     Mode: All
@@ -110,7 +110,7 @@ Wizardd:
         - CHAT "<&a>Okay! What I need from you is 50 gold ingots. Don't ask why but we need it quick. Bring me that and your in."
         - execute as_server 'pex user <player.name> add Wizard2'
         - execute as_server 'pex user <player.name> remove Wizard'
-'Wizard4':
+Wizard4:
   Type: Interact
   Requirements:
     Mode: All
@@ -145,7 +145,7 @@ Wizardd:
         - EXECUTE ASSERVER 'pex group Crusader user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Magician user add <player.name>'
-'Wizard3':
+Wizard3:
   Type: Interact
   Requirements:
     Mode: All
@@ -156,7 +156,7 @@ Wizardd:
       Click Trigger:
         Script:
         - CHAT "<&a>50 gold ingots <player.name>... Bring that and you're in."
-'Wizard5':
+Wizard5:
   Type: Interact
   Requirements:
     Mode: All
@@ -167,7 +167,7 @@ Wizardd:
       Click Trigger:
         Script:
         - CHAT "<&a>Hope you enjoy the guild!"
-'GuildComp':
+GuildComp:
   Type: Interact
   Requirements:
     Mode: Any
@@ -195,7 +195,7 @@ Wizardd:
       Click Trigger:
         Script:
         - CHAT "<&a>Congratulations Guild Master."
-'SumStart':
+SumStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -233,7 +233,7 @@ Wizardd:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'SumTask':
+SumTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -247,7 +247,7 @@ Wizardd:
         - CHAT "<&a>You're task is simple, Bring me 20 of Each type of Mob Head and 20 Chicken Eggs. And you will be a Summoner of the Guild."
         - execute as_server 'pex user <player.name> remove Summoner'
         - execute as_server 'pex user <player.name> add sum1'
-'SumTaskNo':
+SumTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -259,7 +259,7 @@ Wizardd:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>?"
-'SumTaskYes':
+SumTaskYes:
   Type: Interact
   Requirements:
     Mode: All
@@ -301,7 +301,7 @@ Wizardd:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Summoner user add <player.name>'
         - EXECUTE ASSERVER 'pex group Spellcaster user remove <player.name>'
-'Wizard6':
+Wizard6:
   Type: Interact
   Requirements:
     Mode: All
@@ -312,7 +312,7 @@ Wizardd:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'MageEd':
+MageEd:
   Type: Interact
   Requirements:
     Mode: All

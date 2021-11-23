@@ -6,7 +6,7 @@ Jockie:
   - 3 NoArmor
   - 4 Armor
   - 5 Snitching
-'NewHorses':
+NewHorses:
   Type: Interact
   Requirements:
     Mode: All
@@ -23,7 +23,7 @@ Jockie:
         Script:
         - CHAT "<&b>Where did I get my horses? Bring me five sets of Iron Horse armor and I might tell you."
         - flag HorseArmor
-'NoArmor':
+NoArmor:
   Type: Interact
   Requirements:
     Mode: All
@@ -34,7 +34,7 @@ Jockie:
       Click Trigger:
         Script:
         - CHAT "<&b><&l>If you want to know where I get my horses I need those <&4>Five sets of Iron Horse Armor."
-'Armor':
+Armor:
   Type: Interact
   Requirements:
     Mode: All
@@ -48,7 +48,7 @@ Jockie:
         - TAKE 417 qty:5
         - CHAT "<&b><&l>That's exactly what I needed, the guilds will pay nicely for these horses."
         - flag Armored
-'Snitching':
+Snitching:
   Type: Interact
   Requirements:
     Mode: All

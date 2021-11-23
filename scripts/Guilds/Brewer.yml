@@ -12,7 +12,7 @@ Brewerr:
   - 18 ^BrewTaskNo
   - 19 ^BrewTaskYes
   - 20 ^GuildComp
-'Brewer':
+Brewer:
   Type: Interact
   Requirements:
     Mode: All
@@ -62,7 +62,7 @@ Brewerr:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Magic?"
-'Brewer4':
+Brewer4:
   Type: Interact
   Requirements:
     Mode: All
@@ -97,7 +97,7 @@ Brewerr:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Spellcaster user add <player.name>'
         - EXECUTE ASSERVER 'pex group Magician user remove <player.name>'
-'Brewer3':
+Brewer3:
   Type: Interact
   Requirements:
     Mode: All
@@ -108,7 +108,7 @@ Brewerr:
       Click Trigger:
         Script:
         - CHAT "<&a>Where the fuck are my 16 Diamond Blocks you Lazy Nigger?"
-'Brewer5':
+Brewer5:
   Type: Interact
   Requirements:
     Mode: All
@@ -119,7 +119,7 @@ Brewerr:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'MageEd':
+MageEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -146,7 +146,7 @@ Brewerr:
         Script:
         - CHAT "<&a>There are three specialties, Enchanter, Brewmaster, and Summoner. Wizard handles Summoners, Brewer Handles Brewmaster, and WizardDexter handles Enchanters."
         - execute as_server 'pex user <player.name> add special'
-'BrewStart':
+BrewStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -184,7 +184,7 @@ Brewerr:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'BrewTask':
+BrewTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -198,7 +198,7 @@ Brewerr:
         - CHAT "<&a>You're task is simple, Bring me 20 Nether Stars. And you will be a Brewmaster of the Guild."
         - permission remove brewmaster
         - execute as_server 'pex user <player.name> add brew1'
-'BrewTaskNo':
+BrewTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -210,7 +210,7 @@ Brewerr:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>?"
-'BrewTaskYes':
+BrewTaskYes:
   Type: Interact
   Requirements:
     Mode: All

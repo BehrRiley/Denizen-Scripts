@@ -13,7 +13,7 @@ Mayhemm:
   - 18 ^ExplosivesTaskNo
   - 19 ^ExplosivesTaskYes
   - 20 ^GuildComp
-'Mayhem':
+Mayhem:
   Type: Interact
   Requirements:
     Mode: All
@@ -62,7 +62,7 @@ Mayhemm:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Flying?"
-'Mayhem4':
+Mayhem4:
   Type: Interact
   Requirements:
     Mode: All
@@ -97,7 +97,7 @@ Mayhemm:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Rogue user add <player.name>'
         - EXECUTE ASSERVER 'pex group Bandit user remove <player.name>'
-'Mayhem3':
+Mayhem3:
   Type: Interact
   Requirements:
     Mode: All
@@ -109,7 +109,7 @@ Mayhemm:
         Script:
         - CHAT "<&a>20 lava buckets <player.name>... Where are they?"
         - permission add Bandit6
-'Mayhem5':
+Mayhem5:
   Type: Interact
   Requirements:
     Mode: All
@@ -120,7 +120,7 @@ Mayhemm:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey there Rogue if your looking for a higher rank talk to Gay Steve."
-'MayhemJ':
+MayhemJ:
   Type: Interact
   Requirements:
     Mode: All
@@ -131,7 +131,7 @@ Mayhemm:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'ExplosivesStart':
+ExplosivesStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -169,7 +169,7 @@ Mayhemm:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'ExplosivesTask':
+ExplosivesTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -183,7 +183,7 @@ Mayhemm:
         - CHAT "<&a>You're task is simple, Bring me 64 TnT and 30 Creeper Eggs. And you will be a Explosives master of the Guild."
         - permission remove Explosives
         - permission add Explosives1
-'ExplosivesTaskYes':
+ExplosivesTaskYes:
   Type: Interact
   Requirements:
     Mode: All
@@ -194,7 +194,7 @@ Mayhemm:
     1:
       Click Trigger:
         Script:
-        - if <player.inventory.qty[]> > 29 {
+        - if <player.inventory.qty[]> > 29:
           - CHAT "<&a>You've done it! Here is your rank Explosives!"
           - permission remove grief
           - permission remove grief2
@@ -226,10 +226,9 @@ Mayhemm:
           - EXECUTE ASSERVER 'pex group Thief user remove <player.name>'
           - TAKE 383:50 QTY:30
           - TAKE 46 QTY:64
-          } else {
+        - else:
           - CHAT "<&a>Where are my items that I require <player.name>?"
-          }
-'GriefEd':
+GriefEd:
   Type: Interact
   Requirements:
     Mode: All

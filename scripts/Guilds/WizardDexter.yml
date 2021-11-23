@@ -13,7 +13,7 @@ Wizarddexx:
   - 19 ^EnchTaskYes
   - 20 ^GuildComp
   - 14 ^WizardDex6
-'WizardDex':
+WizardDex:
   Type: Interact
   Requirements:
     Mode: All
@@ -63,7 +63,7 @@ Wizarddexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's mageing?"
-'WizardDex4':
+WizardDex4:
   Type: Interact
   Requirements:
     Mode: All
@@ -98,7 +98,7 @@ Wizarddexx:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Wizard user add <player.name>'
         - EXECUTE ASSERVER 'pex group Magician user remove <player.name>'
-'WizardDex3':
+WizardDex3:
   Type: Interact
   Requirements:
     Mode: All
@@ -109,7 +109,7 @@ Wizarddexx:
       Click Trigger:
         Script:
         - CHAT "<&a>10 Gold Blocks <player.name>... Bring that and you're in."
-'WizardDex5':
+WizardDex5:
   Type: Interact
   Requirements:
     Mode: All
@@ -120,7 +120,7 @@ Wizarddexx:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'WizardDex6':
+WizardDex6:
   Type: Interact
   Requirements:
     Mode: All
@@ -131,7 +131,7 @@ Wizarddexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Talk to Brewer to Rank up."
-'MageEd':
+MageEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -158,7 +158,7 @@ Wizarddexx:
         Script:
         - CHAT "<&a>There are three specialties, Enchanter, Brewmaster, and Summoner. Wizard handles Summoners, Brewer Handles Brewmaster, and WizardDexter handles Enchanters."
         - execute as_server 'pex user <player.name> add Special'
-'EnchStart':
+EnchStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -196,7 +196,7 @@ Wizarddexx:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'EnchTask':
+EnchTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -210,7 +210,7 @@ Wizarddexx:
         - CHAT "<&a>You're task is simple, Bring me 100 bottles of enchanting and a set of diamond armor. And you will be a Enchanter of the Guild."
         - execute as_server 'pex user <player.name> remove Enchanter'
         - execute as_server 'pex user <player.name> add brew1'
-'EnchTaskNo':
+EnchTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -222,7 +222,7 @@ Wizarddexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>?"
-'EnchTaskYes':
+EnchTaskYes:
   Type: Interact
   Requirements:
     Mode: All

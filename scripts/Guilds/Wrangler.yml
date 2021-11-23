@@ -5,7 +5,7 @@ Wrangler:
   - 2 Wrangled
   - 4 HorseEggs
   - 5 Egged
-'Wrangled':
+Wrangled:
   Type: Interact
   Requirements:
     Mode: All
@@ -22,7 +22,7 @@ Wrangler:
         Script:
         - CHAT "<&b><&l>What I need from you is <&4><&l>Six Horse Eggs... <&b><&l>I've been wanting to start my own business."
         - flag HorseEgg
-'HorseEggs':
+HorseEggs:
   Type: Interact
   Requirements:
     Mode: All
@@ -32,14 +32,14 @@ Wrangler:
     1:
       Click Trigger:
         Script:
-        - if <player.inventory.qty[383:100]> > 5 {
+        - if <player.inventory.qty[383:100]> > 5:
           - CHAT "<&b><&l>Thank you <player.name>. I've been getting these horses <&4><&l>From the smugglers at subsville."
           - TAKE 383:100 qty:6
           - flag HorseEgg:!
           - flag Egged
-          } else {
+        - else:
           - CHAT "<&b><&l>Where are my <&4><&l>Six Horse Eggs? <&b><&l>When I get those, you get your information."
-'Egged':
+Egged:
   Type: Interact
   Requirements:
     Mode: All

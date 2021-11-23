@@ -12,7 +12,7 @@ Gayy:
   - 18 ^SpyTaskNo
   - 19 ^SpyTaskYes
   - 20 ^GuildComp
-'Gsteve':
+Gsteve:
   Type: Interact
   Requirements:
     Mode: All
@@ -61,7 +61,7 @@ Gayy:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Griefing?"
-'Gsteve4':
+Gsteve4:
   Type: Interact
   Requirements:
     Mode: All
@@ -96,7 +96,7 @@ Gayy:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Thief user add <player.name>'
         - EXECUTE ASSERVER 'pex group Rogue user remove <player.name>'
-'Gsteve3':
+Gsteve3:
   Type: Interact
   Requirements:
     Mode: All
@@ -107,7 +107,7 @@ Gayy:
       Click Trigger:
         Script:
         - CHAT "<&a>Where the fuck are my 16 Diamond Blocks you Lazy Nigger?"
-'Gsteve5':
+Gsteve5:
   Type: Interact
   Requirements:
     Mode: All
@@ -118,7 +118,7 @@ Gayy:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'SpyStart':
+SpyStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -156,7 +156,7 @@ Gayy:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'SpyTask':
+SpyTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -170,7 +170,7 @@ Gayy:
         - CHAT "<&a>You're task is simple, Bring me 30 Ghast Eggs. And you will be a Spy of the Guild."
         - permission remove Spy
         - permission add Spy1
-'SpyTaskNo':
+SpyTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -182,7 +182,7 @@ Gayy:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>?"
-'SpyTaskYes':
+SpyTaskYes:
   Type: Interact
   Requirements:
     Mode: All
@@ -224,7 +224,7 @@ Gayy:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Spy user add <player.name>'
         - EXECUTE ASSERVER 'pex group Thief user remove <player.name>'
-'GriefEd':
+GriefEd:
   Type: Interact
   Requirements:
     Mode: All

@@ -14,7 +14,7 @@ Billyy:
   - 18 ^AssassinTaskNo
   - 19 ^AssassinTaskYes
   - 20 ^GuildComp
-'Billy':
+Billy:
   Type: Interact
   Requirements:
     Mode: All
@@ -98,7 +98,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a><&a>Hey <player.name>! How's griefing?"
-'Billy2':
+Billy2:
   Type: Interact
   Requirements:
     Mode: All
@@ -111,7 +111,7 @@ Billyy:
         - CHAT "<&a>Okay! What I need from you is 64 TNT. Don't ask why but we need it quick. Bring me that and your in."
         - permission add Grief2
         - permission remove Grief
-'Billy4':
+Billy4:
   Type: Interact
   Requirements:
     Mode: All
@@ -145,7 +145,7 @@ Billyy:
         - EXECUTE ASSERVER 'pex group Crusader user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Bandit user add <player.name>'
-'Billy3':
+Billy3:
   Type: Interact
   Requirements:
     Mode: All
@@ -157,7 +157,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a>64 TNT <player.name>... Bring that and you're in."
-'Billy5':
+Billy5:
   Type: Interact
   Requirements:
     Mode: All
@@ -168,7 +168,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Hope you enjoy the guild!"
-'BillyJ':
+BillyJ:
   Type: Interact
   Requirements:
     Mode: All
@@ -179,7 +179,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey there Rogue if your looking for a higher rank talk to Gay Steve."
-'BillyJJ':
+BillyJJ:
   Type: Interact
   Requirements:
     Mode: All
@@ -190,7 +190,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'GuildComp':
+GuildComp:
   Type: Interact
   Requirements:
     Mode: Any
@@ -218,7 +218,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Congratulations Guild Master."
-'GriefEd':
+GriefEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -245,7 +245,7 @@ Billyy:
         Script:
         - CHAT "<&a>There are three specialties, Spy, Explosives, and Assassin. Billy handles Assassins, ParadoxMayhem Handles Explosives, and Gay Steve handles Spys."
         - permission add Special
-'AssassinStart':
+AssassinStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -283,7 +283,7 @@ Billyy:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'AssassinTask':
+AssassinTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -297,7 +297,7 @@ Billyy:
         - CHAT "<&a>You're task is simple, Bring me 64 TnT and 64 Sticky Pistons. And you will be a Assassin master of the Guild."
         - permission remove Assassin
         - permission add Assassin1
-'AssassinTaskNo':
+AssassinTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -309,7 +309,7 @@ Billyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>?"
-'AssassinTaskYes':
+AssassinTaskYes:
   Type: Interact
   Requirements:
     Mode: All
@@ -353,7 +353,7 @@ Billyy:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Assassin user add <player.name>'
         - EXECUTE ASSERVER 'pex group Thief user remove <player.name>'
-'GriefEd':
+GriefEd:
   Type: Interact
   Requirements:
     Mode: All

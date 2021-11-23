@@ -13,7 +13,7 @@ Perryy:
   - 18 ^GunTaskNo
   - 19 ^GunTaskYes
   - 20 ^GuildComp
-'Perry':
+Perry:
   Type: Interact
   Requirements:
     Mode: All
@@ -62,7 +62,7 @@ Perryy:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Flying?"
-'Perry4':
+Perry4:
   Type: Interact
   Requirements:
     Mode: All
@@ -98,7 +98,7 @@ Perryy:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Pilot user add <player.name>'
         - EXECUTE ASSERVER 'pex group Crewman user remove <player.name>'
-'Perry3':
+Perry3:
   Type: Interact
   Requirements:
     Mode: All
@@ -110,7 +110,7 @@ Perryy:
       Click Trigger:
         Script:
         - CHAT "<&a>32 iron blocks dumbass <player.name>... Where are they?"
-'Perry5':
+Perry5:
   Type: Interact
   Requirements:
     Mode: All
@@ -121,7 +121,7 @@ Perryy:
       Click Trigger:
         Script:
         - CHAT "<&a>Hi there Talk to James to Rank up... He's somewhere around here...."
-'GunStart':
+GunStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -159,7 +159,7 @@ Perryy:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'GunTask':
+GunTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -173,7 +173,7 @@ Perryy:
         - CHAT "<&a>You're task is simple, Bring me 10 DiamodBlocks 64 TnT and 10 IronBlocks. And you will be a Gunner of the Guild."
         - execute as_server 'pex user <player.name> remove Gunner'
         - execute as_server 'pex user <player.name> add Gun1'
-'GunTaskNo':
+GunTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -185,7 +185,7 @@ Perryy:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my 10 DiamodBlocks 64 TnT and 10 IronBlocks <player.name>?"
-'GunTaskYes':
+GunTaskYes:
   Type: Interact
   Requirements:
     Mode: All
@@ -205,7 +205,7 @@ Perryy:
         - TAKE 42 QTY:10
         - EXECUTE ASSERVER 'pex group Gunner user add <player.name>'
         - EXECUTE ASSERVER 'pex group Captain user remove <player.name>'
-'Donate':
+Donate:
   Type: Interact
   Requirements:
     Mode: All

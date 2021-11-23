@@ -12,7 +12,7 @@ Testyy:
   - 18 ^DesTaskNo
   - 19 ^DesTaskYes
   - 20 ^GuildComp
-'Fore':
+Fore:
   Type: Interact
   Requirements:
     Mode: All
@@ -61,7 +61,7 @@ Testyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Fighting?"
-'Fore4':
+Fore4:
   Type: Interact
   Requirements:
     Mode: All
@@ -97,7 +97,7 @@ Testyy:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Foreman user add <player.name>'
         - EXECUTE ASSERVER 'pex group Craftsman user remove <player.name>'
-'Fore3':
+Fore3:
   Type: Interact
   Requirements:
     Mode: All
@@ -109,7 +109,7 @@ Testyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Where the fuck are my 16 Diamond Blocks you Lazy Nigger?"
-'Fore5':
+Fore5:
   Type: Interact
   Requirements:
     Mode: All
@@ -120,7 +120,7 @@ Testyy:
       Click Trigger:
         Script:
         - CHAT "<&a>You must donate to rank up further."
-'BuildEd':
+BuildEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -147,7 +147,7 @@ Testyy:
         Script:
         - CHAT "<&a>There are three specialties, Mechanic, Fortifier, and Designer. TestyBill handles Designers, Miner Handles Fortifier, and Architect Lego handles Mechanics."
         - execute as_server 'pex user <player.name> add Special'
-'DesStart':
+DesStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -185,7 +185,7 @@ Testyy:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'DesTask':
+DesTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -199,7 +199,7 @@ Testyy:
         - CHAT "<&a>You're task is simple, Bring me 64 of each type of dye. And you will be a Designer of the Guild."
         - execute as_server 'pex user <player.name> remove Designer'
         - execute as_server 'pex user <player.name> add Des1'
-'DesTaskNo':
+DesTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -211,7 +211,7 @@ Testyy:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my dyes <player.name>?"
-'DesTaskYes':
+DesTaskYes:
   Type: Interact
   Requirements:
     Mode: All

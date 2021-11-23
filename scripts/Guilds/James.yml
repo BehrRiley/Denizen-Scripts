@@ -13,7 +13,7 @@ Jamess:
   - 18 ^ComTaskNo
   - 19 ^ComTaskYes
   - 20 ^GuildComp
-'James':
+James:
   Type: Interact
   Requirements:
     Mode: All
@@ -62,7 +62,7 @@ Jamess:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Flying?"
-'James4':
+James4:
   Type: Interact
   Requirements:
     Mode: All
@@ -79,7 +79,7 @@ Jamess:
         - TAKE 57 QTY:16
         - EXECUTE ASSERVER 'pex group Captain user add <player.name>'
         - EXECUTE ASSERVER 'pex group Pilot user remove <player.name>'
-'James3':
+James3:
   Type: Interact
   Requirements:
     Mode: All
@@ -90,7 +90,7 @@ Jamess:
       Click Trigger:
         Script:
         - CHAT "<&a>16 diamond blocks dumbass <player.name>... Where are they?"
-'ComStart':
+ComStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -128,7 +128,7 @@ Jamess:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'ComTask':
+ComTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -142,7 +142,7 @@ Jamess:
         - CHAT "<&a>You're task is simple, Bring me 64 dispensers 64 Iron blocks and 300 wool. And you will be a Commander of the Guild."
         - execute as_server 'pex user <player.name> remove Commander'
         - execute as_server 'pex user <player.name> add Com1'
-'ComTaskNo':
+ComTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -154,7 +154,7 @@ Jamess:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>? I need 64 dispensers 64 Iron blocks and 300 wool"
-'ComTaskYes':
+ComTaskYes:
   Type: Interact
   Requirements:
     Mode: All

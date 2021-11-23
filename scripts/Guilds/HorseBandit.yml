@@ -6,7 +6,7 @@ HorseBandit:
   - 3 TrustTest
   - 4 Trusted
   - 5 Shame
-'Bandit':
+Bandit:
   Type: Interact
   Requirements:
     Mode: All
@@ -18,7 +18,7 @@ HorseBandit:
         Script:
         - CHAT "<&b><&l>Horses you say? I may have some horses... But how do I know your trustworthy?"
         - flag TrustTest
-'TrustTest':
+TrustTest:
   Type: Interact
   Requirements:
     Mode: All
@@ -39,7 +39,7 @@ HorseBandit:
         - execute as_server "npc select 47"
         - execute as_server "npc vulnerable"
         - execute as_server "npc health -set 3"
-'Trusted':
+Trusted:
   Type: Interact
   Requirements:
     Mode: All
@@ -57,7 +57,7 @@ HorseBandit:
         Script:
         - CHAT "<&b><&l>Well I'm out of business... My horse provider skipped out on me... So.. Tough luck."
         - flag Horseman
-'Shame':
+Shame:
   Type: Interact
   Requirements:
     Mode: All

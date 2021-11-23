@@ -12,7 +12,7 @@ Legoo:
   - 18 ^MechTaskNo
   - 19 ^MechTaskYes
   - 20 ^GuildComp
-'Arch':
+Arch:
   Type: Interact
   Requirements:
     Mode: All
@@ -61,7 +61,7 @@ Legoo:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Fighting?"
-'Arch4':
+Arch4:
   Type: Interact
   Requirements:
     Mode: All
@@ -96,7 +96,7 @@ Legoo:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Craftsman user add <player.name>'
         - EXECUTE ASSERVER 'pex group Builder user remove <player.name>'
-'Arch3':
+Arch3:
   Type: Interact
   Requirements:
     Mode: All
@@ -107,7 +107,7 @@ Legoo:
       Click Trigger:
         Script:
         - CHAT "<&a>One Stack of Obsidan dumbass <player.name>... Where is it?"
-'Arch5':
+Arch5:
   Type: Interact
   Requirements:
     Mode: All
@@ -118,7 +118,7 @@ Legoo:
       Click Trigger:
         Script:
         - CHAT "<&a>Go see Testy Bill to Rank up Further, He's somewhere around here...."
-'BuildEd':
+BuildEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -145,7 +145,7 @@ Legoo:
         Script:
         - CHAT "<&a>There are three specialties, Mechanic, Fortifier, and Designer. TestyBill handles Designers, Miner Handles Fortifier, and Architect Lego handles Mechanics."
         - execute as_server 'pex user <player.name> add Special
-'MechStart':
+MechStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -183,7 +183,7 @@ Legoo:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'MechTask':
+MechTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -197,7 +197,7 @@ Legoo:
         - CHAT "<&a>You're task is simple, Bring me 64 Sticky Pistons and 64 Regular Pistons. And you will be a Mechanic of the Guild."
         - execute as_server 'pex user <player.name> remove Mechanic'
         - execute as_server 'pex user <player.name> add Mech1'
-'MechTaskNo':
+MechTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -209,7 +209,7 @@ Legoo:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my Pistons <player.name>?"
-'MechTaskYes':
+MechTaskYes:
   Type: Interact
   Requirements:
     Mode: All

@@ -6,7 +6,7 @@ Tytanekk:
   - 11 ^FighterDex2
   - 10 ^FighterDex
   - 14 ^FighterDex5
-'FighterDex':
+FighterDex:
   Type: Interact
   Requirements:
     Mode: All
@@ -55,7 +55,7 @@ Tytanekk:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Fighting?"
-'FighterDex4':
+FighterDex4:
   Type: Interact
   Requirements:
     Mode: All
@@ -90,7 +90,7 @@ Tytanekk:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Crusader user add <player.name>'
         - EXECUTE ASSERVER 'pex group Guard user remove <player.name>'
-'FighterDex3':
+FighterDex3:
   Type: Interact
   Requirements:
     Mode: All
@@ -101,7 +101,7 @@ Tytanekk:
       Click Trigger:
         Script:
         - CHAT "<&a>30 Gold Axes <player.name>... Bring that and you're in."
-'FighterDex5':
+FighterDex5:
   Type: Interact
   Requirements:
     Mode: All

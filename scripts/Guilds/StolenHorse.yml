@@ -2,7 +2,7 @@ StolenHorse:
   Type: Assignment
   Interact Scripts:
   - 1 Stolen
-'Stolen':
+Stolen:
   Type: Interact
   Requirements:
     Mode: None
@@ -20,7 +20,7 @@ MajesticHorse:
   Actions:
     On Death:
     - runtask HorseDeath
-'Majesty':
+Majesty:
   Type: Interact
   Requirements:
     Mode: None
@@ -30,7 +30,7 @@ MajesticHorse:
       Click Trigger:
         Script:
         - CHAT "<&e><&l>Neigh Bitch... I'm being majestic."
-'Murder':
+Murder:
   Type: Interact
   Requirements:
     Mode: All
@@ -44,7 +44,7 @@ MajesticHorse:
         - execute as_op "npc select 47"
         - execute as_op "npc vulnerable"
         - execute as_op "npc health -set 3"
-'HorseDeath':
+HorseDeath:
   Type: Task
   Script:
     - NARRATE "<&b><&l>Well.... You murdered a horse, a majestic creature, I hope you're happy. You suck."

@@ -20,7 +20,7 @@ Penis:
   - 23 ^End
   - 24 ^Agro
   - 25 ^After
-'Start':
+Start:
   Type: Interact
   Requirements:
     Mode: All
@@ -32,7 +32,7 @@ Penis:
         Script:
         - CHAT "<&a>Hello there! We don't get many strangers this far out! It's a shame you have to visit at such an unfortunate time."
         - flag thissy
-'OceanStart':
+OceanStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -49,7 +49,7 @@ Penis:
         Script:
         - CHAT "<&a>Can you go the lighthouse and see Thomas? He may have some information."
         - flag ocean
-'OceanDuring':
+OceanDuring:
   Type: Interact
   Requirements:
     Mode: All
@@ -61,7 +61,7 @@ Penis:
       Click Trigger:
         Script:
         - CHAT "<&a>Thomas may have information! Go to the lighthouse quickly!"
-'OceanEnd':
+OceanEnd:
   Type: Interact
   Requirements:
     Mode: All
@@ -74,7 +74,7 @@ Penis:
         Script:
         - CHAT "<&a>So Thomas says there is no threat from the ocean? Good.... We don't have any defence against a sea attack."
         - flag tranny
-'DesertStart':
+DesertStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -87,7 +87,7 @@ Penis:
         Script:
         - CHAT "<&a>Head West to the Castle. Find Farrus, he's been gathering information on the sand niggers of the Western Jihadi Desert."
         - flag desert
-'DesertDuring':
+DesertDuring:
   Type: Interact
   Requirements:
     Mode: All
@@ -99,7 +99,7 @@ Penis:
       Click Trigger:
         Script:
         - CHAT "<&a>Go see Farrus at the castle!"
-'DesertEnd':
+DesertEnd:
   Type: Interact
   Requirements:
     Mode: All
@@ -112,7 +112,7 @@ Penis:
         Script:
         - CHAT "<&a>They were only looking for water? Well those people are obviously no threat to us..."
         - flag tranny2
-'CliffStart':
+CliffStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -125,7 +125,7 @@ Penis:
         Script:
         - CHAT "<&a>This might be a longshot. Go see Lucian in the mountains to the East. Look for his hot air balloon. He's been keeping an eye on the smugglers."
         - flag gay
-'CliffDuring':
+CliffDuring:
   Type: Interact
   Requirements:
     Mode: All
@@ -138,7 +138,7 @@ Penis:
         Script:
         - CHAT "<&a>Go see Lucian he's in the mountains to the East."
         - flag gay
-'CliffEnd':
+CliffEnd:
   Type: Interact
   Requirements:
     Mode: All
@@ -151,7 +151,7 @@ Penis:
         Script:
         - CHAT "<&a>The smugglers are chasing treasure as usual... I know who it is..."
         - flag tranny3
-'AirStart':
+AirStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -164,7 +164,7 @@ Penis:
         Script:
         - CHAT "<&a>As I suspected.... Go see Peter in the church. He has an airship, tell him to take you up. He'll know what it means."
         - flag air
-'AirDuring':
+AirDuring:
   Type: Interact
   Requirements:
     Mode: All
@@ -176,7 +176,7 @@ Penis:
       Click Trigger:
         Script:
         - CHAT "<&a>Quickly! Go see Peter in the church."
-'AirEnd':
+AirEnd:
   Type: Interact
   Requirements:
     Mode: All
@@ -210,7 +210,7 @@ Penis:
         - flag battlestarty:!
         - flag battle1:!
         - flag battle2:!
-'End':
+End:
   Type: Interact
   Requirements:
     Mode: All

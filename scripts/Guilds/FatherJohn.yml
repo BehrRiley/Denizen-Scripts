@@ -12,7 +12,7 @@ FatherJohnn:
   - 18 ^VooTaskNo
   - 19 ^VooTaskYes
   - 20 ^GuildComp
-'John':
+John:
   Type: Interact
   Requirements:
     Mode: All
@@ -96,7 +96,7 @@ FatherJohnn:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's priesting?"
-'John2':
+John2:
   Type: Interact
   Requirements:
     Mode: All
@@ -109,7 +109,7 @@ FatherJohnn:
         - CHAT "<&a>Okay! What I need from you is 15 diamonds. I don't care where or how you get it, but we need it quick. Bring me that and your in."
         - permission add priest2
         - permission remove priest
-'John4':
+John4:
   Type: Interact
   Requirements:
     Mode: All
@@ -143,7 +143,7 @@ FatherJohnn:
         - EXECUTE ASSERVER 'pex group Crusader user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Priest user add <player.name>'
-'John3':
+John3:
   Type: Interact
   Requirements:
     Mode: All
@@ -154,7 +154,7 @@ FatherJohnn:
       Click Trigger:
         Script:
         - CHAT "<&a>15 Diamonds <player.name>... Bring that and you're in."
-'GuildComp':
+GuildComp:
   Type: Interact
   Requirements:
     Mode: Any
@@ -182,7 +182,7 @@ FatherJohnn:
       Click Trigger:
         Script:
         - CHAT "<&a>Congratulations Guild Master."
-'PriestEd':
+PriestEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -209,7 +209,7 @@ FatherJohnn:
         Script:
         - CHAT "<&a>There are three specialties, Pacifist, Voodoo, and Patriarch. ThePope handles Patriarchs, FatherJohn Handles Voodoo, and God handles Pacifists."
         - permission add Special
-'VooStart':
+VooStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -247,7 +247,7 @@ FatherJohnn:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'VooTask':
+VooTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -261,7 +261,7 @@ FatherJohnn:
         - CHAT "<&a>You're task is simple, Bring me 25 Players Heads. And you will be a Voodoo Master of the Church."
         - permission remove Voodoo
         - permission add Voo1
-'VooTaskNo':
+VooTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -273,7 +273,7 @@ FatherJohnn:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my 25 heads <player.name>?"
-'VooTaskYes':
+VooTaskYes:
   Type: Interact
   Requirements:
     Mode: All
@@ -307,7 +307,7 @@ FatherJohnn:
         - EXECUTE ASSERVER 'pex group Voodoo user add <player.name>'
         - EXECUTE ASSERVER 'pex group Cardinal user remove <player.name>'
         - TAKE 397:3 QTY:25
-'PriestEd':
+PriestEd:
   Type: Interact
   Requirements:
     Mode: All

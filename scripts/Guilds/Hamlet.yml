@@ -6,7 +6,7 @@ Hamlett:
   - 11 ^Hamlet2    
   - 10 ^Hamlet
   - 14 ^Hamlet5
-'Hamlet':
+Hamlet:
   Type: Interact
   Requirements:
     Mode: All
@@ -90,7 +90,7 @@ Hamlett:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's fightering?"
-'Hamlet2':
+Hamlet2:
   Type: Interact
   Requirements:
     Mode: All
@@ -103,7 +103,7 @@ Hamlett:
         - CHAT "<&a>Okay! What I need from you is 25 Iron Swords. I don't care where or how you get it, but we need it quick. Bring me that and your in."
         - permission add fighter2
         - permission remove fighter
-'Hamlet4':
+Hamlet4:
   Type: Interact
   Requirements:
     Mode: All
@@ -137,7 +137,7 @@ Hamlett:
         - EXECUTE ASSERVER 'pex group Crusader user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group guard user add <player.name>'
-'Hamlet3':
+Hamlet3:
   Type: Interact
   Requirements:
     Mode: All
@@ -148,7 +148,7 @@ Hamlett:
       Click Trigger:
         Script:
         - CHAT "<&a>25 Iron Swords <player.name>... Bring that and you're in."
-'Hamlet5':
+Hamlet5:
   Type: Interact
   Requirements:
     Mode: All

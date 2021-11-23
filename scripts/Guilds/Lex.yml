@@ -13,7 +13,7 @@ Lexx:
   - 18 ^BombTaskNo
   - 19 ^BombTaskYes
   - 20 ^GuildComp
-'Lex':
+Lex:
   Type: Interact
   Requirements:
     Mode: All
@@ -97,7 +97,7 @@ Lexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's piloting?"
-'Lex2':
+Lex2:
   Type: Interact
   Requirements:
     Mode: All
@@ -110,7 +110,7 @@ Lexx:
         - CHAT "<&a>Okay! What I need from you is 3 Stacks of wool. I don't care what color, but we need it quick. Bring me that and your in."
         - execute as_server 'pex user <player.name> add Pilot2'
         - execute as_server 'pex user <player.name> remove Pilot'
-'Lex4':
+Lex4:
   Type: Interact
   Requirements:
     Mode: All
@@ -144,7 +144,7 @@ Lexx:
         - EXECUTE ASSERVER 'pex group Crusader user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Crewman user add <player.name>'
-'Lex3':
+Lex3:
   Type: Interact
   Requirements:
     Mode: All
@@ -155,7 +155,7 @@ Lexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Three stacks of wool <player.name>... Bring that and you're in."
-'Lex5':
+Lex5:
   Type: Interact
   Requirements:
     Mode: All
@@ -166,7 +166,7 @@ Lexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Hope you enjoy the guild!"
-'PilotEd':
+PilotEd:
   Type: Interact
   Requirements:
     Mode: All
@@ -193,7 +193,7 @@ Lexx:
         Script:
         - CHAT "<&a>There are three specialties, Gunner, Commander, and Bomber. Lex handles Bombers, James Handles Commander, and Pirate Perry handles Gunners."
         - execute as_server 'pex user <player.name> add Special'
-'BombStart':
+BombStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -231,7 +231,7 @@ Lexx:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'BombTask':
+BombTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -245,7 +245,7 @@ Lexx:
         - CHAT "<&a>You're task is simple, Bring me 10 DiamodBlocks 64 slimeballs and 10 Lava Buckets. And you will be a Bomber of the Guild."
         - execute as_server 'pex user <player.name> remove Bomber'
         - execute as_server 'pex user <player.name> add Bomb1'
-'BombTaskNo':
+BombTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -257,7 +257,7 @@ Lexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my items that I require <player.name>?"
-'BombTaskYes':
+BombTaskYes:
   Type: Interact
   Requirements:
     Mode: All

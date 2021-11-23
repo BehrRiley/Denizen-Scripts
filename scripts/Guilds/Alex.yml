@@ -6,7 +6,7 @@ Alexx:
   - 11 ^Alex2
   - 10 ^Alex
   - 14 ^Alex5
-'Alex':
+Alex:
   Type: Interact
   Requirements:
     Mode: All
@@ -55,7 +55,7 @@ Alexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Fighting?"
-'Alex4':
+Alex4:
   Type: Interact
   Requirements:
     Mode: All
@@ -90,7 +90,7 @@ Alexx:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Veteran user add <player.name>'
         - EXECUTE ASSERVER 'pex group Crusader user remove <player.name>'
-'Alex3':
+Alex3:
   Type: Interact
   Requirements:
     Mode: All
@@ -101,7 +101,7 @@ Alexx:
       Click Trigger:
         Script:
         - CHAT "<&a>Where the fuck are my 16 Diamond Blocks you Lazy Nigger?"
-'Alex5':
+Alex5:
   Type: Interact
   Requirements:
     Mode: All

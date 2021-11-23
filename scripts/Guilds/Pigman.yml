@@ -3,7 +3,7 @@ Pigman:
   Interact Scripts:
   - 13 ^Rank0
   - 12 ^Rank-1
-'Rank0':
+Rank0:
   Type: Interact
   Requirements:
     Mode: All
@@ -143,7 +143,7 @@ Pigman:
           Script:
            - CHAT "<&a>Alright fine... Go Away."
            - ZAP 1
-'Rank-1':
+Rank-1:
   Type: Interact
   Requirements:
     Mode: None

@@ -12,7 +12,7 @@ popee:
   - 18 ^PatTaskNo
   - 19 ^PatTaskYes
   - 20 ^GuildComp
-'Pope':
+Pope:
   Type: Interact
   Requirements:
     Mode: All
@@ -61,7 +61,7 @@ popee:
       Click Trigger:
         Script:
         - CHAT "<&a>Hey <player.name>! How's Praying?"
-'Pope4':
+Pope4:
   Type: Interact
   Requirements:
     Mode: All
@@ -95,7 +95,7 @@ popee:
         - EXECUTE ASSERVER 'pex group Veteran user remove <player.name>'
         - EXECUTE ASSERVER 'pex group Bishop user add <player.name>'
         - EXECUTE ASSERVER 'pex group Priest user remove <player.name>'
-'Pope3':
+Pope3:
   Type: Interact
   Requirements:
     Mode: All
@@ -106,7 +106,7 @@ popee:
       Click Trigger:
         Script:
         - CHAT "<&a>20 water buckets <player.name>... Where are they?"
-'Pope5':
+Pope5:
   Type: Interact
   Requirements:
     Mode: All
@@ -117,7 +117,7 @@ popee:
       Click Trigger:
         Script:
         - CHAT "<&a>Hows Praying?"
-'PatStart':
+PatStart:
   Type: Interact
   Requirements:
     Mode: All
@@ -155,7 +155,7 @@ popee:
           Script:
           - CHAT "<&a>Try talking to the others.
           - ZAP 1
-'PatTask':
+PatTask:
   Type: Interact
   Requirements:
     Mode: All
@@ -169,7 +169,7 @@ popee:
         - CHAT "<&a>You're task is simple, Bring me 3 Golden God Apples. And you will be a Patriarch of the Church."
         - permission refuse Patriarch
         - permission add Pat1
-'PatTaskNo':
+PatTaskNo:
   Type: Interact
   Requirements:
     Mode: All
@@ -181,7 +181,7 @@ popee:
       Click Trigger:
         Script:
         - CHAT "<&a>Where are my God Apples <player.name>?"
-'PatTaskYes':
+PatTaskYes:
   Type: Interact
   Requirements:
     Mode: All
